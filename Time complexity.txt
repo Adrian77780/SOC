@@ -1,0 +1,5 @@
+Time complexity:
+1.option 3
+2.Option 2
+3.O(n)
+4.O(nlogn)
