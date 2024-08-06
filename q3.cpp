@@ -1,5 +1,5 @@
 #include <iostream>
-
+using namespace std;
 int gcd(int a, int b) {
     if (b == 0)
         return a;
@@ -16,8 +16,8 @@ int phi(int n) {
 
 int main() {
     int n;
-    std::cout << "Enter a number: ";
-    std::cin >> n;
-    std::cout << "Phi(" << n << ") = " << phi(n) << std::endl;
+    cout << "Enter a number: ";
+    cin >> n;
+    cout << "Phi(" << n << ") = " << phi(n) << endl;
     return 0;
 }
